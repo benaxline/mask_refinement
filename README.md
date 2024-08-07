@@ -3,10 +3,19 @@ Refining masks using [MGMatting](https://github.com/yucornetto/MGMatting) model.
 
 ## Use case examples
 
-Given this image and rough mask of the dog and cat:
+1. Given this image and rough mask of the dog and cat:
 
 ![dogs](https://github.com/benaxline/mask_refinement/blob/main/data/image/pet/download.jpg) ![dogs](https://github.com/benaxline/mask_refinement/blob/main/data/masks/pet/download.png)
 
 We can produce a better mask by running them through the MGMatting model to get this mask: 
 
 ![refined](https://github.com/benaxline/mask_refinement/blob/main/data/refined/pet/download.png)
+
+
+2. Given this image and rough mask of nature:
+
+![tree](https://github.com/benaxline/mask_refinement/blob/main/data/image/nature/nature-2.jpg) ![tree](https://github.com/benaxline/mask_refinement/blob/main/data/masks/nature/nature-2.png)
+
+We can produce a better mask of the tree by running them through the MGMatting model:
+
+![tree](https://github.com/benaxline/mask_refinement/blob/main/data/refined/nature/nature-2.png)
